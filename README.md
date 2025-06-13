@@ -1,4 +1,4 @@
-# GitOps Workflow with ArgoCD 🚀☸️🎯
+# GitOps Workflow with Kustomize and ArgoCD 🚀☸️🎯
 
 ### Overview
 This project demonstrates a **complete DevOps lifecycle and GitOps workflow** using **ArgoCD**, **Kustomize**, and **Kubernetes** to deploy and manage two microservices — a **Flask API** and an **Nginx web server** — across **dev**, **staging**, and **prod** environments using the **App of Apps pattern**.
