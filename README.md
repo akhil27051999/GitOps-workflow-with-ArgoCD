@@ -132,6 +132,8 @@ argocd-gitops-demo-project/
 - Defined reusable Deployment and Service manifests in manifests/base/.
 - These act as the shared foundation for all environments.
 
+---
+
 ### ✅ Section 5: Environment Customization with Kustomize
 
 - Created overlays/ directories for each environment.
