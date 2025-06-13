@@ -2,6 +2,8 @@
 
 This project demonstrates a **complete DevOps lifecycle and GitOps workflow** using **ArgoCD**, **Kustomize**, and **Kubernetes** to deploy and manage two microservices — a **Flask API** and an **Nginx web server** — across **dev**, **staging**, and **prod** environments using the **App of Apps pattern**.
 
+![61ae83c9897e446768f9cc1f_ArgoCD](https://github.com/user-attachments/assets/82b35208-2b5a-4485-901a-7395ea4f4797)
+
 ### 👨‍💻 Project Goal
 
 To build, deploy, and manage multi-environment microservices applications in a **declarative GitOps** manner using **ArgoCD**, while following real-world **DevOps best practices**.
