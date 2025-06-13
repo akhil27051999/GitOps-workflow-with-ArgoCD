@@ -13,8 +13,20 @@ spec:
         app: demo-app
     spec:
       containers:
-        - name: demo-app
-          image: nginx
-          ports:
-            - containerPort: 80
+      - name: demo-app
+        image: akhilthyadi/gitops-flask-app:latest
+        ports:
+        - containerPort: 80
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 20
 
