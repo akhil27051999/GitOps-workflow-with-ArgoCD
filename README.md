@@ -219,3 +219,29 @@ kubectl port-forward svc/dev-nginx-app -n dev 8080:80
 - ArgoCD App of Apps for scalable GitOps automation
 - Real-time sync and rollback from GitHub repo
 
+## Outputs
+
+**Image pushed to DockerHub**
+
+![Screenshot 2025-06-14 010417](https://github.com/user-attachments/assets/04aff0f7-2b5f-41b2-9584-0e09a8c3fc6f)
+
+**Applications in ArgoCD Output**
+
+![Screenshot 2025-06-14 002500](https://github.com/user-attachments/assets/5d2e64dc-bd9d-475f-b87a-61692996f73e)
+
+**GitOps-app-dev Output**
+
+![Screenshot 2025-06-14 014528](https://github.com/user-attachments/assets/93b46464-bea4-4250-9e7e-1e8de90b5b99)
+
+**GitOps-app-prod Output**
+
+![Screenshot 2025-06-14 014556](https://github.com/user-attachments/assets/803921ae-acca-4aeb-937e-a12ddb85132f)
+
+**GitOps-app-staging Output**
+
+![Screenshot 2025-06-14 014616](https://github.com/user-attachments/assets/68ef683c-9bf4-474e-9e65-448288ca347b)
+
+**App-of-Apps Output**
+
+![Screenshot 2025-06-14 014636](https://github.com/user-attachments/assets/16e78fc5-1523-45a3-8825-7caf3ce97332)
+
