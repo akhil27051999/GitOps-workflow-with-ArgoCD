@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/akhil27051999/argocd-gitops-demo-project
-    targetRevision: main
+    targetRevision: master
     path: manifests/overlays/prod
   destination:
     server: https://kubernetes.default.svc
