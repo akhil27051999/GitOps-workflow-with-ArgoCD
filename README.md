@@ -24,7 +24,7 @@ To build, deploy, and manage multi-environment microservices applications in a *
 ```text
                 ┌────────────────────┐
                 │     Developer      │
-                │(Push Code to GitHub)│
+                │ Push Code to GitHub│
                 └────────┬───────────┘
                          │
                          ▼
