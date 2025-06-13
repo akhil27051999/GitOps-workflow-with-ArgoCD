@@ -59,6 +59,8 @@ To build, deploy, and manage multi-environment microservices applications in a *
 
 ```
 
+---
+
 ### 📁 Repository Structure
 
 ```text
