@@ -147,7 +147,8 @@ argocd-gitops-demo-project/
 ### ✅ Section 6: Installing and Configuring ArgoCD
 
 - Installed ArgoCD in the cluster under the argocd namespace.
-**- Exposed the ArgoCD server using:**
+  
+**Exposed the ArgoCD server using:**
 
 ```bash
 kubectl port-forward svc/argocd-server -n argocd 8080:443
@@ -194,13 +195,13 @@ kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.pas
 
 ### ✅ Section 10: Accessing Services via Port Forwarding
 
-**- Flask in Dev**
+**Flask in Dev**
 
 ```bash
 kubectl port-forward svc/dev-demo-app -n dev 5000:5000
 ```
 
-**- Nginx in Dev**
+**Nginx in Dev**
 
 ```bash
 kubectl port-forward svc/dev-nginx-app -n dev 8080:80
