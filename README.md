@@ -120,7 +120,7 @@ argocd-gitops-demo-project/
 ### ✅ Section 2: Installing Docker and Containerizing Applications
 
 - Installed Docker Engine on the EC2 instance.
-- Created Dockerfiles for both Flask and Nginx services.
+- Created Dockerfile for Flask service.
 - Built and tested the container images locally.
 
 ---
